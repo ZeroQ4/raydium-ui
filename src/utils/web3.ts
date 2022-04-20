@@ -21,8 +21,8 @@ import BigNumber from 'bignumber.js'
 export const web3Config = {
   strategy: 'speed',
   rpcs: [
-    { url: 'https://raydium.rpcpool.com', weight: 50 },
-    { url: 'https://raydium.genesysgo.net', weight: 30 },
+    { url: 'https://solana-api.projectserum.com', weight: 50 },
+    { url: 'https://solana-api.projectserum.com', weight: 30 },
     { url: 'https://solana-api.projectserum.com', weight: 10 },
     { url: 'https://solana-api.tt-prod.net', weight: 10 }
   ]
